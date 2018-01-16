@@ -1,0 +1,61 @@
+body{
+  background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+fieldset{
+  border: none;
+}
+
+.container{
+  max-width: 400px;
+  margin: 20% auto;
+  vertical-align: middle;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container form{
+    padding: 30px 20px;
+    border: none;
+}
+
+.ghost-input {
+    font-size: 1rem;
+    max-width: 80%;
+    background-color: rgba(255,255,255,0);
+    text-align: center;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+input[type="submit"]
+{
+  background-color: rgba(35, 203, 120, 0.79);
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  display: block;
+  margin: 15px auto;
+}
+
+input[type="submit"]:hover{
+  background-color: rgba(203, 35, 82, 0.8);
+  cursor: pointer;
+  border-color: white;
+}
+
+fieldset p{
+  display: block;
+  margin: auto;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+}
